@@ -12,6 +12,7 @@ For more details, please refer to the report.pdf
     + DQN.py, Asdqn.py and Actor_Critic.py are the RL models used in this project.
     + AC_train_aux.py, AC_train_noaux.py, DQN_imitatopn_train.py, DQN_train_aux.py, DQN_train_no_aux.py and mul_train.py are used to train the agents. Note that apart from mul_train.py, all train processes are done on CUDA. DQN_imitatopn_train.py needs addtional human trajectories, the user can generates trajectoried himself in Game.py.
     + requirements.txt lists all the package neeeded in this project.
+
 Install the requirements using the following code:
 ```
 pip install --user -r requirements.txt
